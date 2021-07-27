@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Budget</title>
+</head>
+<body>
+    <div class="container">
+        <div class="mooneyWrapper">
+            <div class="budgetWrapper">
+                <form class="budget">
+                    <label>Set your budget:</label>
+                    <input type="text" id="budgetVal">
+                    <button type="button" id="budgetSubmit" >submit</button>
+                </form>
+                    <p>Your budget is:</p>
+                <div id="budget">
+                </div>
+            </div>
+            <div class="expensesWrapper">
+                <form class="budget">
+                    <label>Add new expenses</label><br>
+                    <input type="text" id="expense"> <br>
+                    <input type="text" id="expenseVal" > <br>
+                    <button id="expSubmit" type="button">submit</button>
+                </form>
+            </div>
+        </div>
+       <div class="eventsWrapper">
+           <div id="expenses">
+            <h1>Expenses:</h1>
+            <div id="expList">
+              <ul id="list">    
+
+              </ul>
+            </div>
+           </div>
+           <div id="costs">
+           <h1>Costs:</h1>
+              <div id="costList">
+
+              </div>
+           </div>
+           <div id="balance">
+           <h1>Your balance:</h1>
+           <div id="balEv"></div>
+           </div>
+       </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
